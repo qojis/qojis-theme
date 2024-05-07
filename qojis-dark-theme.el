@@ -32,11 +32,14 @@
   ;;(qj:mode-line            (qj:rgb->hex 90 74 124))
   (qj:mode-line            (qj:rgb->hex 54 48 70))
   (qj:mode-line-inactive   (qj:rgb->hex 39 40 42))
+
+  (qj:region               (qj:rgb->hex 39 57 116))
   )
 
  ;; Faces
  ((default                       (:foreground qj:text :background qj:background))
   (cursor                        (  :background qj:text))
+  (region                        (:background qj:region))
   (error                         (:foreground qj:red :weight 'bold))
   (warning                       (:foreground qj:orange :weight 'bold))
 
