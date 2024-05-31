@@ -68,7 +68,8 @@
   (error                         (:foreground qj:red :weight 'bold))
   (warning                       (:foreground qj:orange :weight 'bold))
   (highlight                     (:background qj:nord-polar0 :foreground qj:nord-snow0))
-  (lazy-highlight                (:background qj:yellow-dk :forefround qj:nord-snow0))
+  (lazy-highlight                (:background qj:yellow-dk :foreground qj:nord-snow0))
+  (shadow                        (:foreground qj:text-weak))
 
   (fringe                        (:background qj:background-light))
   (line-number                   (:background qj:background-light))
