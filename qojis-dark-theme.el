@@ -59,6 +59,11 @@
   (qj:nord-yellow          "#ebcb8b") ;; (qj:rgb->hex 235 203 139)
   (qj:nord-green           "#a3be8c") ;; (qj:rgb->hex 163 190 140)
   (qj:nord-purple          "#b48ead") ;; (qj:rgb->hex 180 142 173)
+
+  (qj:background-red       "#7f3a3f")
+  (qj:background-red-lt    "#ba636a")
+  (qj:background-green     "#374f2f")
+  (qj:background-green-lt  "#5a7f4f")
   )
 
  ;; Faces
@@ -81,6 +86,11 @@
 
   (link                          (:foreground qj:blue-dk :underline t))
   (link-visited                  (:foreground qj:purple-dk :underline t))
+
+  (ediff-current-diff-A          (:background qj:background-red))
+  (ediff-current-diff-B          (:background qj:background-green))
+  (ediff-fine-diff-A             (:background qj:background-red-lt))
+  (ediff-fine-diff-B             (:background qj:background-green-lt))
 
   (eshell-prompt                 (:foreground qj:nord-orange))
   (eshell-ls-directory           (:foreground qj:nord-frost3))
